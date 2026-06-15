@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NutriSnap 食刻 — Privacy Policy / 隐私政策</title>
+<style>
+  :root { --mint:#22C55E; --mint-dark:#16A34A; --bg:#FAF7F2; --card:#fff; --text:#1C1917; --muted:#78716C; --border:#EEE9E2; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+  .wrap { max-width:760px; margin:0 auto; padding:32px 20px 80px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:8px; }
+  .logo { width:52px; height:52px; border-radius:13px; background:linear-gradient(180deg,#4ADE80,#16A34A); display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800; font-size:15px; }
+  h1 { font-size:24px; margin:0; }
+  .meta { color:var(--muted); font-size:14px; margin:4px 0 20px; }
+  .toggle { display:inline-flex; background:var(--card); border:1px solid var(--border); border-radius:999px; padding:3px; margin-bottom:24px; }
+  .toggle button { border:0; background:none; padding:7px 18px; border-radius:999px; font-size:14px; font-weight:600; color:var(--muted); cursor:pointer; }
+  .toggle button.active { background:var(--mint); color:#fff; }
+  h2 { font-size:18px; margin:30px 0 8px; }
+  p, li { font-size:15px; }
+  a { color:var(--mint-dark); }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:4px 20px 16px; margin-top:8px; }
+  code { background:#F1EDE6; padding:1px 6px; border-radius:6px; font-size:13px; }
+  footer { margin-top:40px; color:var(--muted); font-size:13px; }
+  [hidden] { display:none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">食刻</div>
+    <div>
+      <h1>NutriSnap 食刻</h1>
+      <div class="meta">Privacy Policy · 隐私政策</div>
+    </div>
+  </header>
+
+  <div class="toggle">
+    <button id="btn-en" class="active" onclick="setLang('en')">English</button>
+    <button id="btn-zh" onclick="setLang('zh')">中文</button>
+  </div>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <section id="en">
+    <p class="meta">Last updated: June 14, 2026</p>
+    <div class="card">
+      <h2>Summary</h2>
+      <p>NutriSnap is a personal food and nutrition tracker. <strong>We do not run
+      any server and we do not collect, store, or sell your personal data.</strong>
+      Everything you log stays on your device. AI food recognition runs through
+      <em>your own</em> third-party AI account (you provide the API key).</p>
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p>NutriSnap ("the app", "we") is an independent mobile application for iOS
+    and Android. Contact: <a href="mailto:support@nutrisnap.app">support@nutrisnap.app</a>.</p>
+
+    <h2>2. Data stored on your device</h2>
+    <p>The app stores the following <strong>locally on your device only</strong>,
+    and never transmits it to us:</p>
+    <ul>
+      <li>Your food diary entries (food names, weights, calories, protein, fat,
+      carbs, meal, date) and any photos you attach to an entry;</li>
+      <li>Your settings (daily goals, reminder times, language);</li>
+      <li>The AI provider you choose and its API key.</li>
+    </ul>
+    <p>We have no access to this data. Removing an entry, or uninstalling the
+    app, deletes it.</p>
+
+    <h2>3. AI food recognition (third-party processing)</h2>
+    <p>When you use photo or text recognition, the app sends the relevant
+    <strong>food photo or text description</strong> directly from your device to
+    the AI provider you selected — <strong>ChatGPT (OpenAI), Claude (Anthropic),
+    or DeepSeek</strong> — authenticated with the API key you entered. This
+    request does not pass through any server of ours. The selected provider
+    processes the content under its own privacy policy:</p>
+    <ul>
+      <li>OpenAI — <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">openai.com/policies/privacy-policy</a></li>
+      <li>Anthropic — <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">anthropic.com/legal/privacy</a></li>
+      <li>DeepSeek — <a href="https://www.deepseek.com/" target="_blank" rel="noopener">deepseek.com</a></li>
+    </ul>
+    <p>The app does not retain a copy of the photo on any server; the photo
+    remains on your device unless you choose to send it for recognition.</p>
+
+    <h2>4. Your API key</h2>
+    <p>Your AI provider API key is stored only on your device and is sent only to
+    that provider to authenticate your own requests. It is never sent to us and
+    never shared with anyone else.</p>
+
+    <h2>5. Device permissions</h2>
+    <ul>
+      <li><strong>Camera</strong> — to photograph meals for AI recognition.</li>
+      <li><strong>Photo library</strong> — to pick an existing meal photo.</li>
+      <li><strong>Notifications</strong> — to remind you when a meal has not been
+      logged. You can disable reminders in Settings.</li>
+    </ul>
+    <p>Permissions are used only for these purposes and only when you trigger the
+    related feature.</p>
+
+    <h2>6. What we do not do</h2>
+    <p>We do not collect analytics, we do not use advertising or tracking SDKs,
+    we do not require an account, and we do not sell or share your data.</p>
+
+    <h2>7. Children</h2>
+    <p>The app is not directed to children under 13 and does not knowingly
+    collect data from them.</p>
+
+    <h2>8. Health disclaimer</h2>
+    <p>Calorie and nutrition values are AI estimates for general reference only
+    and are not medical advice. Consult a qualified professional for dietary or
+    medical decisions.</p>
+
+    <h2>9. Changes</h2>
+    <p>We may update this policy. The "last updated" date above reflects the
+    current version. Material changes will be noted in the app or this page.</p>
+
+    <h2>10. Contact</h2>
+    <p>Questions? Email <a href="mailto:support@nutrisnap.app">support@nutrisnap.app</a>.</p>
+  </section>
+
+  <!-- ===================== 中文 ===================== -->
+  <section id="zh" hidden>
+    <p class="meta">最后更新：2026 年 6 月 14 日</p>
+    <div class="card">
+      <h2>概要</h2>
+      <p>食刻 NutriSnap 是一款个人饮食与营养记录工具。<strong>我们不运营任何服务器，
+      不收集、不存储、不出售你的个人数据。</strong>你记录的所有内容都保存在你自己的
+      设备上。AI 食物识别通过<em>你自己的</em>第三方 AI 账户完成（由你提供 API 密钥）。</p>
+    </div>
+
+    <h2>1. 我们是谁</h2>
+    <p>食刻 NutriSnap（"本应用"、"我们"）是一款独立的 iOS 与 Android 移动应用。
+    联系方式：<a href="mailto:support@nutrisnap.app">support@nutrisnap.app</a>。</p>
+
+    <h2>2. 保存在你设备上的数据</h2>
+    <p>本应用<strong>仅在你的设备本地</strong>保存以下信息，绝不上传给我们：</p>
+    <ul>
+      <li>你的饮食日记（食物名称、重量、热量、蛋白质、脂肪、碳水、餐次、日期）
+      以及你为记录添加的照片；</li>
+      <li>你的设置（每日目标、提醒时间、语言）；</li>
+      <li>你选择的 AI 服务商及其 API 密钥。</li>
+    </ul>
+    <p>我们无法访问这些数据。删除某条记录或卸载应用即会删除它。</p>
+
+    <h2>3. AI 食物识别（第三方处理）</h2>
+    <p>当你使用拍照或文字识别时，本应用会把相应的<strong>食物照片或文字描述</strong>
+    从你的设备直接发送给你所选择的 AI 服务商——<strong>ChatGPT（OpenAI）、
+    Claude（Anthropic）或 DeepSeek</strong>——并用你填写的 API 密钥进行身份验证。
+    该请求不经过我们的任何服务器。所选服务商将依据其各自的隐私政策处理这些内容：</p>
+    <ul>
+      <li>OpenAI — <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">openai.com/policies/privacy-policy</a></li>
+      <li>Anthropic — <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">anthropic.com/legal/privacy</a></li>
+      <li>DeepSeek — <a href="https://www.deepseek.com/" target="_blank" rel="noopener">deepseek.com</a></li>
+    </ul>
+    <p>本应用不会在任何服务器上保留照片副本；除非你主动发送照片进行识别，否则照片
+    始终保留在你的设备上。</p>
+
+    <h2>4. 你的 API 密钥</h2>
+    <p>你的 AI 服务商 API 密钥仅保存在你的设备上，且只会发送给该服务商以验证你
+    自己的请求。它绝不会发送给我们，也不会分享给任何第三方。</p>
+
+    <h2>5. 设备权限</h2>
+    <ul>
+      <li><strong>相机</strong>——用于拍摄食物照片以进行 AI 识别。</li>
+      <li><strong>相册</strong>——用于从已有照片中选择食物图片。</li>
+      <li><strong>通知</strong>——用于在你忘记记录某餐时提醒你。可在设置中关闭提醒。</li>
+    </ul>
+    <p>权限仅用于上述用途，且仅在你触发相关功能时使用。</p>
+
+    <h2>6. 我们不做的事</h2>
+    <p>我们不收集统计分析数据，不使用广告或追踪 SDK，不要求注册账户，也不出售或
+    分享你的数据。</p>
+
+    <h2>7. 儿童</h2>
+    <p>本应用不面向 13 岁以下儿童，也不会有意收集他们的数据。</p>
+
+    <h2>8. 健康免责声明</h2>
+    <p>热量与营养数值均为 AI 估算，仅供一般参考，不构成医疗建议。涉及饮食或医疗
+    决策请咨询专业人士。</p>
+
+    <h2>9. 政策变更</h2>
+    <p>我们可能更新本政策。上方"最后更新"日期代表当前版本。重大变更将在应用内或
+    本页面提示。</p>
+
+    <h2>10. 联系我们</h2>
+    <p>有疑问？请发邮件至 <a href="mailto:support@nutrisnap.app">support@nutrisnap.app</a>。</p>
+  </section>
+
+  <footer>© 2026 NutriSnap 食刻. All rights reserved.</footer>
+</div>
+
+<script>
+  function setLang(l) {
+    document.getElementById('en').hidden = l !== 'en';
+    document.getElementById('zh').hidden = l !== 'zh';
+    document.getElementById('btn-en').classList.toggle('active', l === 'en');
+    document.getElementById('btn-zh').classList.toggle('active', l === 'zh');
+    document.documentElement.lang = l;
+  }
+  // Default to the browser's language if it is Chinese.
+  if ((navigator.language || '').toLowerCase().startsWith('zh')) setLang('zh');
+</script>
+</body>
+</html>
